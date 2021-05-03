@@ -7,6 +7,7 @@
 //   }
 // };
 const assertEqual = require('./assertEqual');
+const assertArraysEqual = require('./assertArraysEqual');
 
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
@@ -26,5 +27,6 @@ const eqArrays = function(array1, array2) {
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
 
 module.exports = eqArrays;
+module.exports = assertArraysEqual;
 
 
