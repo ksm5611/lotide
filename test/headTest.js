@@ -1,3 +1,6 @@
+// const head = require('../head');
+// module.exports = head;
+
 const assert = require('chai').assert;
 const head   = require('../head');
 

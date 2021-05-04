@@ -1,10 +1,10 @@
 // FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log(`Assertion Passed: ${actual} === ${expected}`)
+    console.log(`Assertion Passed: ${actual} === ${expected}`);
   } else if (actual !== expected) {
-      console.log(`Assertion Failed: ${actual} !== ${expected}`);
-    }
+    console.log(`Assertion Failed: ${actual} !== ${expected}`);
+  }
 };
 
 const countLetters = function(texts) {
@@ -13,12 +13,12 @@ const countLetters = function(texts) {
     if (result[text] === undefined) {
       result[text] = 1;
     } else {
-      result[text] += 1
+      result[text] += 1;
     }
     
   }
-  return result;  
-}
+  return result;
+};
 
 
-console.log(countLetters('LHL'))
+console.log(countLetters('LHL'));

@@ -1,0 +1,26 @@
+{
+  "name": "@ksm5611/lotide",
+  "version": "1.0.0",
+  "description": "This project was created and published by me as part of my learnings at Lighthouse Labs.",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksm5611/lotide.git"
+  },
+  "author": "ksm5611",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksm5611/lotide/issues"
+  },
+  "homepage": "https://github.com/ksm5611/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}

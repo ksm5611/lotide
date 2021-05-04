@@ -22,16 +22,15 @@ const without = function(sourceArray, removeItem) {
   for (let i = 0; i < sourceArray.length; i++) {
     copied.push(sourceArray[i]);
   }
-
-  for(let i = 0; i < copied.length; i++) {
-    for(let j = 0; j < removeItem.length; j++) {
+  for (let i = 0; i < copied.length; i++) {
+    for (let j = 0; j < removeItem.length; j++) {
       if (copied[i] === removeItem[j]) {
         copied.splice(i, 1);
       }
     }
   }
   return copied;
-}
+};
 
 const words = ["hello", "world", "lighthouse"];
 console.log(without(words, ["lighthouse"])); // no need to capture return value for this test case
