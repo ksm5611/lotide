@@ -46,7 +46,7 @@ const eqObjects = function(object1, object2) {
   return true;
 };
 
-
+ 
 
 // assertObjectsEqual(eqObjects(ex, ex2), true)
 // Assertion Passed: { a: '1', b: 2 } === { b: 2, a: '1' }
